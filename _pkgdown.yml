@@ -4,4 +4,6 @@ template:
   bslib:
     bootswatch: zephyr
     primary: "#a4ac86"
+    base_font: {google: "Outfit"}
+    code_font: {google: "Fira Code"}
 

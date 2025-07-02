@@ -1,9 +1,9 @@
 Package: packageTemplate
-Title: What the Package Does (One Line, Title Case)
+Title: The package is a template for exercises
 Version: 0.0.0.9
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+    person("Marylene", "Henry", , "marylene.henry@gmail.com", role = c("aut", "cre"))
+Description: A teaching-oriented template for creating an R package.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
