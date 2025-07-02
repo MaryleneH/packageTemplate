@@ -1,4 +1,6 @@
 url: https://maryleneh.github.io/packageTemplate/
 template:
   bootstrap: 5
+  bslib:
+    bootswatch: Zephyr
 

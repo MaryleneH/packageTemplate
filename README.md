@@ -1,6 +1,8 @@
 
 # packageTemplate
 
+# packageTemplate <a href="https://maryleneh.github.io/packageTemplate/"><img src="man/figures/logo.png" align="right" height="120" alt="packageTemplate website" /></a>
+
 <!-- badges: start -->
 <!-- badges: end -->
 
