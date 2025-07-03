@@ -11,10 +11,14 @@ template:
   theme-dark: atom-one-dark
 
 reference:
-  - title: Functions that print things
+  - title: ":pencil: Functions that print things"
     desc: These functions will all print things to your console. This is an exercice.
+  - subtitle: ":one: First subsection"
     contents:
       - print_hello_world
+  - subtitle: ":two: Second subsection"
+    contents:
       - print_hello_students
+
 
 
