@@ -10,4 +10,11 @@ template:
   theme: atom-one-light
   theme-dark: atom-one-dark
 
+reference:
+  - title: Functions that print things
+    desc: These functions will all print things to your console. This is an exercice.
+    contents:
+      - print_hello_world
+      - print_hello_students
+
 
