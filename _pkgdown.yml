@@ -23,6 +23,11 @@ reference:
 navbar:
   structure:
     right: [search, github, lightswitch]
+  components:
+    my_linkedin:
+      icon: fa-linkedin
+      href: https://www.linkedin.com/in/marylene-henry/
+      aria-label: LinkedIn
 
 
 
