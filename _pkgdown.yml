@@ -20,5 +20,9 @@ reference:
     contents:
       - print_hello_students
 
+navbar:
+  structure:
+  right: [search, github, lightswitch]
+
 
 
