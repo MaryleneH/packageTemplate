@@ -22,7 +22,7 @@ reference:
 
 navbar:
   structure:
-    right: [search, github, lightswitch]
+    right: [search, github, my_linkedin, lightswitch]
   components:
     my_linkedin:
       icon: fa-linkedin
