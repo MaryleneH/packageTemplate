@@ -9,6 +9,23 @@ template:
   light-switch: true
   theme: atom-one-light
   theme-dark: atom-one-dark
+  includes:
+    after_body: |
+      <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+      <script>
+        document.addEventListener("DOMContentLoaded", function () {
+          document.addEventListener("click", function (e) {
+            if (typeof confetti === "function") {
+              const x = e.clientX / window.innerWidth;
+              const y = e.clientY / window.innerHeight;
+
+              confetti({
+                origin: { x: x, y: y }
+              });
+            }
+          });
+        });
+      </script>
 
 reference:
   - title: ":pencil: Functions that print things"
@@ -42,7 +59,7 @@ footer:
     left: developed_by
     right: buil_with_pkgdown
   components:
-    developped_by: "Developed by [Marylène Henry](https://rladies.org/directory/#marylene-henry) :tada: :computer:"
+    developped_by: "Developed by [Marylène Henry](https://rladies.org/directory/#marylene-henry) :computer: "
     buil_with_pkgdown: "This site was built using [pkgdown](https://pkgdown.r-lib.org/) !&nbsp;&nbsp;<img src='https://pkgdown.r-lib.org/logo.png' alt='pkgdown logo' width='25'>"
 
 
