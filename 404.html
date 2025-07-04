@@ -85,7 +85,19 @@ Content not found. Please use links in the navbar.
 
 
 
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script><script src="https://maryleneh.github.io/packageTemplate/NA">
+  document.addEventListener("DOMContentLoaded", function () {
+    document.addEventListener("click", function (e) {
+      if (typeof confetti === "function") {
+        const x = e.clientX / window.innerWidth;
+        const y = e.clientY / window.innerHeight;
 
-
-  </body>
+        confetti({
+          origin: { x: x, y: y }
+        });
+      }
+    });
+  });
+</script>
+</body>
 </html>
