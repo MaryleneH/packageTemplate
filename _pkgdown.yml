@@ -30,7 +30,8 @@ navbar:
       aria-label: LinkedIn
     github:
       icon: fa-github
-      href: https://www.github.com/MaryleneH
+      href: https://www.github.com/MaryleneH/packageTemplate
+      aria-label: Github
 
 
 
