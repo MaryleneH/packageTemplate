@@ -17,6 +17,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
   brand.innerHTML = `
     <img src="${imgSrc}" height="30" style="vertical-align: middle; margin-right: 10px;">
-    <span style="vertical-align: middle;">rmedicine</span>
+    <span style="vertical-align: middle;">packageTemplate</span>
   `;
 });
