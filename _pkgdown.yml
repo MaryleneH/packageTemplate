@@ -32,6 +32,10 @@ navbar:
       icon: fa-github
       href: https://www.github.com/MaryleneH/packageTemplate
       aria-label: Github
+    js_alert:
+      icon: fa-code
+      href: "#js_alert#"
+      arial-label: JavaScript
 
 footer:
   structure:
