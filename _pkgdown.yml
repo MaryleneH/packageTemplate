@@ -28,6 +28,9 @@ navbar:
       icon: fa-linkedin
       href: https://www.linkedin.com/in/marylene-henry/
       aria-label: LinkedIn
+    github:
+      icon: fa-github
+      href: https://www.github.com/MaryleneH
 
 
 
